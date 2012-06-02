@@ -8,7 +8,6 @@ import android.view.animation.Transformation;
 
 public class AnimateDrawable {
 
-
 	  private int mAlphaFrom;
 	  private int mAlphaTo;
 	  private Animation mAnimation;
