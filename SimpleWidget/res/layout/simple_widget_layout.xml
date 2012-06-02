@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/widget_background"
+        android:layout_width="180dp"
+        android:layout_height="164dp"
+        android:src="@drawable/note_writing_bg"
+        android:visibility="visible" />
+    
+    <TextView 
+        android:id="@+id/memo_text"
+        android:layout_width="180dp"
+        android:layout_height="164dp"/>
+
+    <Button
+        android:id="@+id/memo_list_button"
+        android:layout_width="28dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/tick"
+        android:visibility="visible" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/new_memo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:text="new memo"
+            android:textSize="12sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</FrameLayout>
