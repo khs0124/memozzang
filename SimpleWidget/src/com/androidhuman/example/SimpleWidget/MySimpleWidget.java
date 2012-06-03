@@ -75,7 +75,7 @@ public class MySimpleWidget extends AppWidgetProvider {
 	public void onReceive(Context context, Intent intent) {
 
 		Test(context, AppWidgetManager.getInstance(context));
-
+		
 	}
 
 	@Override

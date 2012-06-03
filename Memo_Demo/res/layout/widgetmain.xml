@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+    
+    <ImageView
+        android:id="@+id/widget_background"
+        android:layout_width="180dp"
+        android:layout_height="164dp"
+        android:src="@drawable/note_writing_bg"
+        android:visibility="visible" />
+    
+    <Button
+        android:id="@+id/memo_list_button"
+        android:layout_width="28dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/list_button"
+        android:visibility="visible" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        
+        <Button 
+            android:id="@+id/new_memo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/note_plus"
+            android:textSize="10sp"
+            android:visibility="visible"/>
+        
+        <Button 
+            android:id="@+id/edit_memo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/note_edit"
+            android:textSize="10sp"
+            android:visibility="visible"/>
+        
+        <Button 
+            android:id="@+id/delete_memo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/note_delete"
+            android:textSize="10sp"
+            android:visibility="visible"/>
+        
+    </LinearLayout>
+
+</FrameLayout>
